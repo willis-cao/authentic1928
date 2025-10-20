@@ -16,7 +16,7 @@ export default function Home() {
 
           {/* Work Experience Section */}
           <section className="mb-14">
-            <h2 className="section-title text-mynavy mb-6">Work Experience</h2>
+            <h2 className="section-title text-myred mb-6">Work Experience</h2>
 
             <div className="mb-8">
               <p className="text-lg text-mywhite">
@@ -41,7 +41,7 @@ export default function Home() {
 
           {/* Projects Section */}
           <section className="mb-14">
-            <h2 className="section-title text-myred mb-6">Projects</h2>
+            <h2 className="section-title text-mygold mb-6">Projects</h2>
 
             <div className="mb-7">
               <div className="flex justify-between items-baseline">
@@ -89,9 +89,26 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Hackathons Section */}
+          <section className="mb-14">
+            <h2 className="section-title text-mynavy mb-6">Hackathons</h2>
+
+            <div className="mb-7">
+              <div className="flex justify-between items-baseline">
+                <p className="text-lg font-medium text-mywhite">UBC Royale Social RPG</p>
+                <div className="flex gap-3 text-sm">
+                  <a href="https://devpost.com/software/ubc-royale" target="_blank" rel="noopener noreferrer" className="text-mywhite hover:text-mygold underline underline-offset-2">
+                    DevPost
+                  </a>
+                </div>
+              </div>
+              <p className="text-mygray text-sm mt-1">Creativity Prize @ nwPlus HackCamp</p>
+            </div>
+          </section>
+
           {/* Research Section */}
           <section className="mb-14">
-            <h2 className="section-title text-mygold mb-6">Research</h2>
+            <h2 className="section-title text-myred mb-6">Research</h2>
 
             <div className="mb-7">
               <div className="flex justify-between items-baseline gap-4">
@@ -113,7 +130,7 @@ export default function Home() {
 
           {/* Awards Section */}
           <section className="mb-14">
-            <h2 className="section-title text-mynavy mb-6">Awards</h2>
+            <h2 className="section-title text-mygold mb-6">Awards</h2>
 
             <div className="mb-8">
               <p className="text-lg text-mywhite">Physiology Prize for the Top Graduating Essay</p>
@@ -123,7 +140,7 @@ export default function Home() {
 
           {/* Education Section */}
           <section className="mb-14">
-            <h2 className="section-title text-myred mb-6">Education</h2>
+            <h2 className="section-title text-mynavy mb-6">Education</h2>
 
             <div className="mb-8">
               <p className="text-lg font-medium text-mywhite">Bachelor of Computer Science</p>

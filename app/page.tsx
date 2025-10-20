@@ -9,7 +9,6 @@ export default function Home() {
           <div className="flex flex-row justify-between items-start mb-16">
             <div className="leading-none">
               <h1 className="custom-text-28 text-mygold leading-none">Willis Cao</h1>
-              <p className="subtitle-text">(Authentic / 1928)</p>
             </div>
             <Navbar />
           </div>
@@ -166,16 +165,19 @@ export default function Home() {
 
           {/* Footer Links */}
           <footer className="pt-8 pb-12 border-t border-mygold/30">
-            <div className="flex flex-row gap-6 text-base">
-              <a href="https://github.com/willis-cao" target="_blank" rel="noopener noreferrer" className="text-mywhite hover:text-mygold underline underline-offset-2">
-                GitHub
-              </a>
-              <a href="https://linkedin.com/in/willis-cao" target="_blank" rel="noopener noreferrer" className="text-mywhite hover:text-mygold underline underline-offset-2">
-                LinkedIn
-              </a>
-              <a href="mailto:willis.cao@outlook.com" className="text-mywhite hover:text-mygold underline underline-offset-2">
-                Email
-              </a>
+            <div className="flex flex-row justify-between items-center">
+              <div className="flex flex-row gap-6 text-base">
+                <a href="https://github.com/willis-cao" target="_blank" rel="noopener noreferrer" className="text-mywhite hover:text-mygold underline underline-offset-2">
+                  GitHub
+                </a>
+                <a href="https://linkedin.com/in/willis-cao" target="_blank" rel="noopener noreferrer" className="text-mywhite hover:text-mygold underline underline-offset-2">
+                  LinkedIn
+                </a>
+                <a href="mailto:willis.cao@outlook.com" className="text-mywhite hover:text-mygold underline underline-offset-2">
+                  Email
+                </a>
+              </div>
+              <p className="subtitle-text">(Authentic / 1928)</p>
             </div>
           </footer>
         </div>

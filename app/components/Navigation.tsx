@@ -6,7 +6,7 @@ const hoverStyle = {
   textDecoration: "underline",
   textUnderlineOffset: "0.35em",
   textDecorationThickness: 2,
-  textDecorationColor: "#d4af37"
+  textDecorationColor: "#b87e6e"
 }
 
 function Navbar() {
@@ -25,6 +25,14 @@ function Navbar() {
         style={hovered === "contact" ? hoverStyle : undefined}
       >
         <a href="mailto:willis.cao@outlook.com">Contact</a>
+      </li>
+      <li className="text-right text-mygray section-title"
+        onMouseEnter={() => setHovered("linkedin")}
+        style={hovered === "linkedin" ? hoverStyle : undefined}
+      >
+        <a href="https://linkedin.com/in/willis-cao" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
       </li>
       <li
         className="text-right text-mygray section-title"

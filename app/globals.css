@@ -3,29 +3,29 @@
 body {
   font-size: 18px;
   font-family: var(--font-crimson), 'Georgia', 'Garamond', 'Times New Roman', serif;
-  background-color: #0f1419;
+  background-color: #ffffff;
   background-image: linear-gradient(
     45deg,
     transparent 0%,
     transparent 36%,
-    rgba(248, 249, 250, 0.15) 36%,
-    rgba(248, 249, 250, 0.15) 38%,
+    rgba(183, 110, 121, 0.12) 36%,
+    rgba(183, 110, 121, 0.12) 38%,
     transparent 38%,
     transparent 40%,
-    rgba(248, 249, 250, 0.15) 40%,
-    rgba(248, 249, 250, 0.15) 42%,
-    rgba(45, 62, 80, 0.15) 42%,
-    rgba(45, 62, 80, 0.15) 44%,
-    rgba(248, 249, 250, 0.15) 44%,
-    rgba(248, 249, 250, 0.15) 46%,
+    rgba(183, 110, 121, 0.12) 40%,
+    rgba(183, 110, 121, 0.12) 42%,
+    rgba(183, 110, 121, 0.18) 42%,
+    rgba(183, 110, 121, 0.18) 44%,
+    rgba(183, 110, 121, 0.12) 44%,
+    rgba(183, 110, 121, 0.12) 46%,
     transparent 46%,
     transparent 48%,
-    rgba(248, 249, 250, 0.15) 48%,
-    rgba(248, 249, 250, 0.15) 50%,
+    rgba(183, 110, 121, 0.12) 48%,
+    rgba(183, 110, 121, 0.12) 50%,
     transparent 50%,
     transparent 100%
   );
-  color: #e8e6e3;
+  color: #2d2d2d;
   line-height: 1.6;
   letter-spacing: 0.01em;
   font-weight: 400;
@@ -49,7 +49,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.08em;
-  color: #9ba3ae;
+  color: #666666;
   margin-top: 6px;
   font-family: var(--font-crimson), serif;
 }
@@ -71,27 +71,27 @@ a:hover {
 }
 
 @utility text-mygold {
-  color: #d4af37;
+  color: #b87e6e;
 }
 
 @utility text-mynavy {
-  color: #5a7ba8;
+  color: #4a5f7f;
 }
 
 @utility text-myred {
-  color: #c55;
+  color: #8b5a5a;
 }
 
 @utility text-mygray {
-  color: #9ba3ae;
+  color: #666666;
 }
 
 @utility text-mywhite {
-  color: #f8f9fa;
+  color: #2d2d2d;
 }
 
 @utility border-mygold {
-  border-color: #d4af37;
+  border-color: #b87e6e;
 }
 
 /* Vintage stage lighting effect */
@@ -117,9 +117,9 @@ a:hover {
 .spotlight-1 {
   background: radial-gradient(
     ellipse 1200px 800px at 25% 20%,
-    rgba(248, 249, 250, 0.08) 0%,
-    rgba(248, 249, 250, 0.04) 30%,
-    rgba(212, 175, 55, 0.02) 50%,
+    rgba(183, 110, 121, 0.08) 0%,
+    rgba(183, 110, 121, 0.04) 30%,
+    rgba(184, 126, 110, 0.02) 50%,
     transparent 70%
   );
   animation: subtleShine 25s ease-in-out infinite;
@@ -128,9 +128,9 @@ a:hover {
 .spotlight-2 {
   background: radial-gradient(
     ellipse 1000px 700px at 70% 30%,
-    rgba(212, 175, 55, 0.1) 0%,
-    rgba(212, 175, 55, 0.05) 25%,
-    rgba(248, 249, 250, 0.03) 45%,
+    rgba(184, 126, 110, 0.1) 0%,
+    rgba(184, 126, 110, 0.05) 25%,
+    rgba(183, 110, 121, 0.03) 45%,
     transparent 65%
   );
   animation: subtleShine 30s ease-in-out infinite;
@@ -140,9 +140,9 @@ a:hover {
 .spotlight-3 {
   background: radial-gradient(
     ellipse 900px 1000px at 50% 70%,
-    rgba(248, 249, 250, 0.06) 0%,
-    rgba(90, 123, 168, 0.03) 35%,
-    rgba(212, 175, 55, 0.02) 55%,
+    rgba(183, 110, 121, 0.06) 0%,
+    rgba(184, 126, 110, 0.03) 35%,
+    rgba(183, 110, 121, 0.02) 55%,
     transparent 75%
   );
   animation: subtleShine 35s ease-in-out infinite;

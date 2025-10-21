@@ -11,7 +11,7 @@ const crimson = Crimson_Pro({
 
 export const metadata: Metadata = {
   title: "Willis Cao",
-  description: "Willis Cao's personal portfolio",
+  description: "Willis Cao's personal portfolio website",
 };
 
 export default function RootLayout({

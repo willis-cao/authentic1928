@@ -8,20 +8,20 @@ body {
     45deg,
     transparent 0%,
     transparent 36%,
-    rgba(183, 110, 121, 0.12) 36%,
-    rgba(183, 110, 121, 0.12) 38%,
+    rgba(183, 110, 121, 0.06) 36%,
+    rgba(183, 110, 121, 0.06) 38%,
     transparent 38%,
     transparent 40%,
-    rgba(183, 110, 121, 0.12) 40%,
-    rgba(183, 110, 121, 0.12) 42%,
-    rgba(183, 110, 121, 0.18) 42%,
-    rgba(183, 110, 121, 0.18) 44%,
-    rgba(183, 110, 121, 0.12) 44%,
-    rgba(183, 110, 121, 0.12) 46%,
+    rgba(183, 110, 121, 0.06) 40%,
+    rgba(183, 110, 121, 0.06) 42%,
+    rgba(183, 110, 121, 0.09) 42%,
+    rgba(183, 110, 121, 0.09) 44%,
+    rgba(183, 110, 121, 0.06) 44%,
+    rgba(183, 110, 121, 0.06) 46%,
     transparent 46%,
     transparent 48%,
-    rgba(183, 110, 121, 0.12) 48%,
-    rgba(183, 110, 121, 0.12) 50%,
+    rgba(183, 110, 121, 0.06) 48%,
+    rgba(183, 110, 121, 0.06) 50%,
     transparent 50%,
     transparent 100%
   );
@@ -42,7 +42,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+  font-family: var(--font-dm-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
 }
 
 .subtitle-text {
@@ -59,7 +59,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+  font-family: var(--font-dm-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
 }
 
 a {
@@ -115,36 +115,18 @@ a:hover {
 }
 
 .spotlight-1 {
-  background: radial-gradient(
-    ellipse 1200px 800px at 25% 20%,
-    rgba(183, 110, 121, 0.08) 0%,
-    rgba(183, 110, 121, 0.04) 30%,
-    rgba(184, 126, 110, 0.02) 50%,
-    transparent 70%
-  );
+  background: transparent;
   animation: subtleShine 25s ease-in-out infinite;
 }
 
 .spotlight-2 {
-  background: radial-gradient(
-    ellipse 1000px 700px at 70% 30%,
-    rgba(184, 126, 110, 0.1) 0%,
-    rgba(184, 126, 110, 0.05) 25%,
-    rgba(183, 110, 121, 0.03) 45%,
-    transparent 65%
-  );
+  background: transparent;
   animation: subtleShine 30s ease-in-out infinite;
   animation-delay: 8s;
 }
 
 .spotlight-3 {
-  background: radial-gradient(
-    ellipse 900px 1000px at 50% 70%,
-    rgba(183, 110, 121, 0.06) 0%,
-    rgba(184, 126, 110, 0.03) 35%,
-    rgba(183, 110, 121, 0.02) 55%,
-    transparent 75%
-  );
+  background: transparent;
   animation: subtleShine 35s ease-in-out infinite;
   animation-delay: 15s;
 }

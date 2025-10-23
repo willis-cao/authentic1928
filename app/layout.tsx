@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Spotlight from "./components/Stars";
-import { Crimson_Pro } from 'next/font/google';
+import { Crimson_Pro, DM_Sans } from 'next/font/google';
 
 const crimson = Crimson_Pro({
   subsets: ['latin'],
   variable: '--font-crimson',
   weight: ['400', '600'],
+});
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  variable: '--font-dm-sans',
+  weight: ['400', '700'],
 });
 
 export const metadata: Metadata = {
@@ -20,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={crimson.variable}>
+    <html lang="en" className={`${crimson.variable} ${dmSans.variable}`}>
       <body className="min-h-screen pl-0 pr-0 pt-12 pb-2 mx-10 flex justify-center sm:mx-24">
         <Spotlight />
         <div style={{ position: 'relative', zIndex: 1 }}>
